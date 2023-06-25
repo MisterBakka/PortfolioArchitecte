@@ -209,21 +209,6 @@ const openModal = function (e) {
             editCaption.classList = "editerStyle";
 
 
-            // Gestion de l'highlight sur le survol du texte p
-            editCaption.addEventListener('mouseover', function () {
-                imgElement.classList.add('highlighted-blue');
-            });
-            editCaption.addEventListener('mouseout', function () {
-                imgElement.classList.remove('highlighted-blue');
-            });
-            // Gestion de l'highlight sur le survol de la poubelle
-            trashButton.addEventListener('mouseover', function () {
-                imgElement.classList.add('highlighted-red');
-            });
-            trashButton.addEventListener('mouseout', function () {
-                imgElement.classList.remove('highlighted-red');
-            });
-
 
             buttonContainer.appendChild(moveButton);
             moveButton.appendChild(moveIcon);
