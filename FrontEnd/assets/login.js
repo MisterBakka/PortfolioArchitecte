@@ -31,7 +31,5 @@ document.getElementById('btn-submit').addEventListener('click', function (event)
         alert('Erreur de connexion : Login ou mot de passe incorrect');
       }
     })
-    .catch(error => {
-      console.error('Erreur lors de la requête de login:', error);
-    });
+ 
 });
